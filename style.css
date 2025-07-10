@@ -56,3 +56,44 @@ footer {
   text-align: center;
   padding: 15px 0;
 }
+.hero {
+  background-image: url('Uae Cityscape.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  color: white;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.overlay h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  font-size: 18px;
+}
+
+.cta-button {
+  margin-top: 20px;
+  background: #e9d8a6;
+  color: #333;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background: #fefae0;
+}
